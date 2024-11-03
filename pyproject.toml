@@ -24,6 +24,7 @@ log_file = "logs/pytest.log"
 markers = [
     "slow: mark test as slow",
     "benchmark: mark test as a benchmark",
+    "slow: mark test as slow",
 ]
 
 [tool.ruff]
