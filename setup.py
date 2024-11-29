@@ -5,7 +5,6 @@
 from setuptools import find_packages, setup
 from setuptools.dist import Distribution
 
-
 # Tested with wheel v0.29.0
 class BinaryDistribution(Distribution):
     def has_ext_modules(self):
